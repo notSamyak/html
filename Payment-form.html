@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Payment Form</title>
+	<link rel="stylesheet" type="text/css" href="css/hw1.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> -->
+</head>
+<body>
+	<form>
+		<h1>Payment form</h1>
+		<p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+	<section>
+    <h2>Contact information</h2>
+    <fieldset>
+      <legend>Title</legend>
+      <ul>
+          <li>
+            <label for="title_1">
+              <input type="radio" id="title_1" name="title" value="K" >
+              King
+            </label>
+          </li>
+          <li>
+            <label for="title_2">
+              <input type="radio" id="title_2" name="title" value="Q" checked="false">
+              Queen
+            </label>
+          </li>
+          <li> 
+            <label for="title_3"> 
+              <input type="radio" id="title_3" name="titles" value="J">
+              Joker 
+            </label> 
+          </li>
+      </ul>
+    </fieldset>
+    <p>
+      <label for="name">
+        <span>Name: </span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="text" id="name" name="username" placeholder="Name" minlength="10" maxlength="25" required="required" autocomplete="given-name">
+    </p>
+    <p>
+      <label for="mail">
+        <span>E-mail: </span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="email" id="mail" name="usermail" placeholder="Email" required="required" autocomplete="on" pattern=".*[@].*[.].">
+    </p>
+    <p>
+      <label for="pwd">
+        <span>Password: </span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="password" id="pwd" name="password" placeholder="Password" minlength="6" required>
+    </p>
+    <p>
+    	<label for="color">
+    		<span>Color picker:</span>
+          	<input type="color" id="color" name="color picker">
+    	</label>
+    </p>
+    <p>
+    	<label for="file">
+    		<span>Choose file:</span>
+    		<input type="file" id="file" name="file" accept=".jpg,.jpeg,.png" multiple>
+    	</label>
+    </p>
+    <p>
+    	<label for="tel">
+    		<span>Tel:</span>
+    		<input type="tel" id="tel" name="telephone" inputmode="tel" maxlength="12">
+    	</label>
+    </p>
+    <p>
+    	<label for="number">
+    		<span>Choose a number:</span>
+    		<input type="number" id="number" name="no." max="50" min="20" step=".2">
+    	</label>
+    </p>
+    <p>
+    	<input type="checkbox" id="carrots" name="carrots" value="carrots" autofocus>
+    </p>
+       <label for="myFruit">What's your favorite fruit?</label>
+<input type="text" name="myFruit" id="myFruit" list="mySuggestion">
+<datalist id="mySuggestion">
+  <option>Apple</option>
+  <option>Banana</option>
+  <option>Blackberry</option>
+  <option>Blueberry</option>
+  <option>Lemon</option>
+  <option>Lychee</option>
+  <option>Peach</option>
+  <option>Pear</option>
+</datalist>
+<progress max="100" value="95">75/100</progress>
+<meter min="0" max="100" value="95" low="33" high="66" optimum="30">75</meter>
+</section>
+<section>
+    <h2>Payment information</h2>
+    <p>
+      <label for="card">
+        <span>Card type:</span>
+      </label>
+      <select id="card" name="usercard">
+        <option value="visa">Visa</option>
+        <option value="mc">Mastercard</option>
+        <option value="amex">American Express</option>
+      </select>
+    </p>
+    <p>
+      <label for="number">
+        <span>Card number:</span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="tel" id="number" name="cardnumber" >
+    </p>
+    <p>
+      <label for="date">
+        <span>Expiration date:</span>
+        <strong><abbr title="required">*</abbr></strong>
+        <em>formatted as mm/dd/yyyy</em>
+      </label>
+      <input type="date" id="date" name="expiration">
+    </p>
+</section>
+<p> <button type="submit">Validate the payment</button> </p>
+<select id="multi" name="multi" multiple size="4">
+  <optgroup label="fruits">
+     <option>Banana</option>
+     <option selected>Cherry</option>
+     <option>Lemon</option>
+   </optgroup>
+   <optgroup label="vegetables">
+     <option>Carrot</option>
+     <option>Eggplant</option>
+     <option>Potato</option>
+   </optgroup>
+</select>
+</form>
+</body>
+</html>

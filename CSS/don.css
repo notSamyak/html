@@ -1,0 +1,156 @@
+h1{
+	font-variant: small-caps;
+	font-family: Arial, "Times New Roman", serif;
+	font-size: 250%;
+	font-weight: bold;
+	color:white;
+}
+header{
+
+	background:#E73E18;
+	text-align:center;
+	background-image: url(http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg);
+	opacity: 0.859;
+    background-repeat: no-repeat;
+    background-position: 7% 10%;
+    background-size: cover;
+    padding:15px;
+
+}
+nav{
+ 
+	font-family: Arial, "Times New Roman", serif;
+	font-size: 150%;
+	display:block;
+ 	font-weight:bold;
+ 	text-decoration:none;
+ 	padding:15px;
+ 	margin:25px;
+ 	
+}
+
+
+a{
+  color:black;
+  text-align: justify-all;
+  padding: 15px 25px;
+ 
+  text-align: center;
+  display: inline-block;
+  
+ }
+
+nav a{
+	text-decoration: none;
+	background: #DBF3AB ;
+    margin:26px;
+	opacity:0.8;
+	border-radius:10px;
+}
+
+.active{
+	border:1px solid black;
+	background:white;
+	border-radius: 10px;
+}
+
+.left,.right{
+	display: inline-block;
+}
+
+.left{
+    height:55%;
+	width:25%;
+	background: #8FD83B;
+	background-size: cover;
+	padding:10px;
+}
+.right{
+	padding:35px;
+	height:75%;
+	width:55%;
+	vertical-align:top;
+}
+
+body{
+ 	padding:15px;
+ 	margin:10px;
+ 	font-size: 100%
+ }
+
+ /*table{
+ 	 font family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+ 	 font-style: normal;
+ 	 width:80%;
+ 	 margin-left:auto; 
+     margin-right:auto;
+ }
+
+ th{
+ 
+
+  background:#F7F1D2 ;  
+  
+  border: solid #E2D681;
+  border-radius:10% 10% 0 0;
+  border-bottom-width: thick;
+  padding:2px;
+  margin:2px;
+
+
+*/
+ 	
+ 	/*border:round only top two corners;
+ 	make bottom border thicker
+ 	add one more prop*/
+ /*}
+ tr{
+ 	background: #466368;
+   background: -webkit-linear-gradient(to right, #f6f1d3, #F9E79F, #293f50);
+   background:    -moz-linear-gradient(to right, #f6f1d3, #F9E79F, #293f50);
+   background:        linear-gradient(to right, #f6f1d3, #F9E79F, #293f50);
+  opacity: 0.78;
+
+ 	left align first columns: 
+ 	other center
+ }
+
+tr:hover{
+   opacity:1;
+ }
+
+table th:first-child{
+	text-align: left;
+	padding:10px;
+}
+}
+table tr td:first-child
+{
+   text-align: left;
+}
+table tr td:not(:first-child)
+{
+   text-align:center;
+}
+
+td{
+ 	padding:10px;
+ 	margin:1px;
+ 	background color:#C39BD3;
+ 	border-radius:2px;
+ 	text-shadow: 2px 2px 8px pink;
+  }*/
+
+
+img{
+	
+	
+	display:block;
+	height:100%; 
+	
+	border:1.5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+	
